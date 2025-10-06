@@ -1,0 +1,9 @@
+1. docker compose file for jenknis and grafana
+2. jenkins running port 8080 and grafana on 3000
+3. nginx to route request (grafana.local and jenkins.local)
+4. Configure basic authentication for grafana using htpasswd
+5. Enable SSL (self signed certificates and https routing)
+6. Restrict access to jenkins by IP
+7. Rate Limiting in nginx to access jenkins 
+8. Create dockerfile for nginx, jenkins and grafana
+8. Automate full setup with shell script (creating docker images, running containers, auth, ssl, ratelimit etc.)
